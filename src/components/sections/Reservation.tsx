@@ -232,6 +232,8 @@ export function Reservation({ locale, headingLevel = 2 }: Props) {
               <ConsentCheckbox
                 id="rez-consent"
                 label={t.consent}
+                linkLabel={t.consentLink}
+                href={`/${locale}/ochrana-osobnych-udajov`}
                 error={err.consent}
               />
 

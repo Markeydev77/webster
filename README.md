@@ -104,18 +104,6 @@ Nezobrazuje sa preto ani cookie lišta, nie je čo odsúhlasovať. Jediné osobn
 alebo kontaktnom formulári. Tie sa neukladajú do databázy, iba sa odošlú
 e-mailom na firemnú adresu.
 
-## Právne stránky
-
-Stránky Ochrana osobných údajov, Obchodné podmienky a Zásady cookies boli
-z webu dočasne odstránené. Ich kompletný text v slovenčine aj angličtine
-zostáva v repozitári v súbore `src/content/legal.ts`, takže sa dajú kedykoľvek
-vrátiť bez toho, aby sa písali odznova.
-
-Web pritom cez formuláre zbiera osobné údaje (meno, telefón, e-mail, správa).
-Zásady spracovania osobných údajov k takémuto webu podľa GDPR patria a
-identifikačné údaje podnikateľa vyžaduje aj zákon o elektronickom obchode.
-Odporúčame stránky vrátiť skôr, než web dostanú do rúk zákazníci.
-
 ## Čo treba doplniť
 
 Nasledujúce údaje neboli v podkladoch. Web ich nikde nevymýšľa: sekcie, ktoré

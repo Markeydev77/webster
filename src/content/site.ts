@@ -9,6 +9,31 @@
 
 export type Maybe<T> = T | null;
 
+const FALLBACK_URL = "https://www.webstersound.sk";
+
+/**
+ * Adresa webu z premennej prostredia, znormalizovaná.
+ *
+ * Hodnota sa zadáva ručne vo Verceli, takže sa v nej bežne ocitne adresa bez
+ * protokolu alebo s lomkou na konci. Bez tejto normalizácie by `new URL()`
+ * v metadátach vyhodilo výnimku a zhodilo predgenerovanie VŠETKÝCH stránok,
+ * pričom hlásenie by ukazovalo na náhodnú stránku a nie na skutočnú príčinu.
+ */
+function resolveSiteUrl(): string {
+  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (!raw) return FALLBACK_URL;
+
+  const candidate = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
+  try {
+    return new URL(candidate).origin;
+  } catch {
+    console.warn(
+      `[Webster] NEXT_PUBLIC_SITE_URL nie je platná adresa: "${raw}". Používa sa ${FALLBACK_URL}.`,
+    );
+    return FALLBACK_URL;
+  }
+}
+
 export const site = {
   name: "Webster Sound & Light",
   shortName: "Webster",
@@ -18,7 +43,7 @@ export const site = {
   },
 
   /** Verejná adresa webu. Prepíše sa premennou NEXT_PUBLIC_SITE_URL. */
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.webstersound.sk",
+  url: resolveSiteUrl(),
 
   contact: {
     phone: "+421903549635" as Maybe<string>,

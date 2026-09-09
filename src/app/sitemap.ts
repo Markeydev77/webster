@@ -19,6 +19,9 @@ const routes: Route[] = [
   { path: "/technika", changeFrequency: "monthly", priority: 0.8 },
   { path: "/referencie", changeFrequency: "monthly", priority: 0.8 },
   { path: "/rezervacia", changeFrequency: "monthly", priority: 0.8 },
+  { path: "/ochrana-osobnych-udajov", changeFrequency: "yearly", priority: 0.3 },
+  { path: "/obchodne-podmienky", changeFrequency: "yearly", priority: 0.3 },
+  { path: "/cookies", changeFrequency: "yearly", priority: 0.3 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
