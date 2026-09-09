@@ -65,93 +65,6 @@ async function deliver(subject: string, rows: [string, string][], replyTo?: stri
   }
 }
 
-/** Rezervácia termínu. */
-export async function submitReservation(
-  _prev: FormState,
-  data: FormData,
-): Promise<FormState> {
-  const locale = localeOf(data);
-  const t = getDictionary(locale).validation;
-
-  // Pasca na roboty: pole je pre človeka skryté a musí zostať prázdne.
-  if (String(data.get("website") ?? "").length > 0) {
-    return { status: "success" };
-  }
-
-  const values = {
-    name: String(data.get("name") ?? "").trim(),
-    phone: String(data.get("phone") ?? "").trim(),
-    email: String(data.get("email") ?? "").trim(),
-    date: String(data.get("date") ?? "").trim(),
-    type: String(data.get("type") ?? "").trim(),
-    typeOther: String(data.get("typeOther") ?? "").trim(),
-    message: String(data.get("message") ?? "").trim(),
-  };
-
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-
-  const schema = z.object({
-    name: z.string().min(2, t.nameRequired).max(120),
-    phone: z.string().min(1, t.phoneRequired).regex(PHONE, t.phoneInvalid),
-    email: z.string().min(1, t.emailRequired).regex(EMAIL, t.emailInvalid).max(160),
-    date: z
-      .string()
-      .min(1, t.dateRequired)
-      .refine((v) => !Number.isNaN(Date.parse(v)), t.dateRequired)
-      .refine((v) => new Date(v) >= today, t.datePast),
-    type: z
-      .string()
-      .min(1, t.typeRequired)
-      .refine((v) => eventTypes.some((e) => e.id === v), t.typeRequired),
-    typeOther: z.string().max(160).optional(),
-    message: z.string().max(4000).optional(),
-  });
-
-  const parsed = schema.safeParse(values);
-  const errors: Record<string, string> = {};
-
-  if (!parsed.success) {
-    for (const issue of parsed.error.issues) {
-      const key = String(issue.path[0]);
-      if (!errors[key]) errors[key] = issue.message;
-    }
-  }
-  if (values.type === OTHER_EVENT_TYPE && values.typeOther.length < 2) {
-    errors.typeOther = t.typeOtherRequired;
-  }
-  if (data.get("consent") !== "on") {
-    errors.consent = t.consentRequired;
-  }
-
-  if (Object.keys(errors).length > 0) {
-    return { status: "error", errors, values };
-  }
-
-  const typeLabel =
-    values.type === OTHER_EVENT_TYPE
-      ? values.typeOther
-      : (eventTypes.find((e) => e.id === values.type)?.label[locale] ?? values.type);
-
-  const ok = await deliver(
-    `Rezervácia: ${typeLabel} - ${values.date}`,
-    [
-      ["Meno", values.name],
-      ["Telefón", values.phone],
-      ["E-mail", values.email],
-      ["Dátum podujatia", values.date],
-      ["Typ podujatia", typeLabel],
-      ["Správa", values.message || "-"],
-      ["Jazyk formulára", locale],
-    ],
-    values.email,
-  );
-
-  return ok
-    ? { status: "success" }
-    : { status: "error", errors: { form: t.serverError }, values };
-}
-
 /** Nezáväzná kontaktná správa. */
 export async function submitContact(
   _prev: FormState,
@@ -167,6 +80,9 @@ export async function submitContact(
   const values = {
     name: String(data.get("name") ?? "").trim(),
     email: String(data.get("email") ?? "").trim(),
+    phone: String(data.get("phone") ?? "").trim(),
+    type: String(data.get("type") ?? "").trim(),
+    typeOther: String(data.get("typeOther") ?? "").trim(),
     message: String(data.get("message") ?? "").trim(),
   };
 
@@ -177,15 +93,32 @@ export async function submitContact(
   if (values.message.length < 5) errors.message = t.messageRequired;
   if (data.get("consent") !== "on") errors.consent = t.consentRequired;
 
+  // Telefón a typ podujatia sú nepovinné, kontrolujeme ich len keď sú vyplnené.
+  if (values.phone && !PHONE.test(values.phone)) errors.phone = t.phoneInvalid;
+  if (values.type && !eventTypes.some((e) => e.id === values.type)) {
+    errors.type = t.typeRequired;
+  }
+  if (values.type === OTHER_EVENT_TYPE && values.typeOther.length < 2) {
+    errors.typeOther = t.typeOtherRequired;
+  }
+
   if (Object.keys(errors).length > 0) {
     return { status: "error", errors, values };
   }
 
+  const typeLabel = !values.type
+    ? "-"
+    : values.type === OTHER_EVENT_TYPE
+      ? values.typeOther
+      : (eventTypes.find((e) => e.id === values.type)?.label[locale] ?? values.type);
+
   const ok = await deliver(
-    `Správa z webu ${site.shortName}: ${values.name}`,
+    `Dopyt z webu ${site.shortName}: ${values.name}`,
     [
       ["Meno", values.name],
       ["E-mail", values.email],
+      ["Telefón", values.phone || "-"],
+      ["Typ podujatia", typeLabel],
       ["Správa", values.message],
       ["Jazyk formulára", locale],
     ],

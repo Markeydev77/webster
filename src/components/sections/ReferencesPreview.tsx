@@ -1,4 +1,7 @@
 import { referencesWithPhoto } from "@/content/references";
+import { ANCHOR_PHOTO } from "@/components/sections/Services";
+import { services } from "@/content/services";
+import { equipment } from "@/content/equipment";
 import { ReferenceCard } from "@/components/ReferenceCard";
 import { EquipmentCta } from "@/components/cta";
 import type { Locale } from "@/lib/i18n";
@@ -24,7 +27,16 @@ export function ReferencesPreview({
   cta,
   deliveredLabel,
 }: Props) {
-  const featured = referencesWithPhoto.slice(0, 5);
+  // Fotky, ktoré už nesie sekcia Služby vyššie, do náhľadu neberieme:
+  // na jednej stránke by inak boli dvakrát.
+  const usedAbove = new Set<string>([
+    ANCHOR_PHOTO,
+    ...services.map((s) => s.photo).filter((p): p is string => Boolean(p)),
+    ...equipment.map((c) => c.photo).filter((p): p is string => Boolean(p)),
+  ]);
+  const featured = referencesWithPhoto
+    .filter((r) => r.photo !== null && !usedAbove.has(r.photo))
+    .slice(0, 5);
   if (featured.length === 0) return null;
 
   const [first, ...rest] = featured;

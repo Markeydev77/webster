@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import { notFound } from "next/navigation";
 
 import { Hero } from "@/components/Hero";
@@ -7,7 +6,7 @@ import { Statement } from "@/components/sections/Statement";
 import { EquipmentPreview } from "@/components/sections/EquipmentPreview";
 import { ReferencesPreview } from "@/components/sections/ReferencesPreview";
 import { Reviews } from "@/components/sections/Reviews";
-import { Reservation } from "@/components/sections/Reservation";
+import { CtaBand } from "@/components/sections/CtaBand";
 import { Contact } from "@/components/sections/Contact";
 
 import { site, socialLinks } from "@/content/site";
@@ -62,9 +61,7 @@ export default async function HomePage({
 
       <Reviews locale={locale} headline={d.reviews.headline} />
 
-      <Suspense fallback={null}>
-        <Reservation locale={locale} />
-      </Suspense>
+      <CtaBand locale={locale} />
 
       <Contact
         locale={locale}

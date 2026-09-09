@@ -168,7 +168,7 @@ export function SiteHeader({ locale, nav, langLabel, showReviews }: Props) {
             </div>
 
             <Link
-              href={`${home}#rezervacia`}
+              href={`${home}#kontakt`}
               className="hidden shrink-0 rounded-md bg-brand px-5 py-2.5 text-[0.87rem] font-semibold
                 tracking-tight text-white shadow-[0_1px_0_0_rgba(255,255,255,0.25)_inset]
                 transition-colors duration-300 hover:bg-brand-lift sm:inline-flex"
@@ -219,7 +219,7 @@ export function SiteHeader({ locale, nav, langLabel, showReviews }: Props) {
         </nav>
         <div className="mt-auto px-5 pb-10 pt-8 sm:px-8">
           <Link
-            href={`${home}#rezervacia`}
+            href={`${home}#kontakt`}
             className="flex items-center justify-center rounded-md bg-brand px-6 py-4
               text-base font-semibold text-white"
           >
@@ -235,7 +235,7 @@ export function SiteHeader({ locale, nav, langLabel, showReviews }: Props) {
           ${scrolled && !open ? "translate-y-0" : "translate-y-full"}`}
       >
         <Link
-          href={`${home}#rezervacia`}
+          href={`${home}#kontakt`}
           tabIndex={scrolled && !open ? undefined : -1}
           aria-hidden={scrolled && !open ? undefined : true}
           className="flex items-center justify-center rounded-md bg-brand px-6 py-3.5

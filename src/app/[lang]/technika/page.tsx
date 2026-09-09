@@ -115,7 +115,7 @@ export default async function EquipmentPage({
 
       <section className="border-t border-line py-20 sm:py-24">
         <div className="mx-auto flex max-w-[1400px] flex-wrap items-center gap-x-8 gap-y-5 px-5 sm:px-8">
-          <BookCta href={`/${locale}#rezervacia`}>{d.nav.reserve}</BookCta>
+          <BookCta href={`/${locale}#kontakt`}>{d.nav.reserve}</BookCta>
           <ContactCta href={`/${locale}#kontakt`}>{d.equipment.askCta}</ContactCta>
         </div>
       </section>

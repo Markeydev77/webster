@@ -125,7 +125,7 @@ export function Hero({ locale, headline, sub, primary, secondary }: Props) {
             {sub}
           </p>
           <div className="reveal reveal-delay-3 mt-9 flex flex-wrap items-center gap-3">
-            <BookCta href={`/${locale}#rezervacia`}>{primary}</BookCta>
+            <BookCta href={`/${locale}#kontakt`}>{primary}</BookCta>
             <EquipmentCta href={`/${locale}/technika`}>{secondary}</EquipmentCta>
           </div>
         </div>

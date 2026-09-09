@@ -20,7 +20,7 @@ export const services: Service[] = [
       sk: "Line array systémy pre obecné dni, festivaly aj koncerty v hale. Bezdrôtové mikrofóny a pódiové monitorovanie pre kapely, folklórne súbory aj rečníkov.",
       en: "Line array systems for village days, festivals and indoor concerts. Wireless microphones and stage monitoring for bands, folk ensembles and speakers.",
     },
-    photo: "zvuk-linearray-vonku",
+    photo: "zvuk-linearray-hala",
     evidence: ["zakafest", "klin-den-obce", "novot-dni-obce", "lepsia-konferencia"],
   },
   {
@@ -30,7 +30,7 @@ export const services: Service[] = [
       sk: "Pohyblivé hlavy, wash a beam svetlá pre koncertné aj plesové nasvietenie. Od jemného nasvietenia konferencie po plnú svetelnú šou na festivale.",
       en: "Moving heads, wash and beam fixtures for concert and ballroom lighting. From a restrained conference wash to a full festival light show.",
     },
-    photo: "svetla-moving-heads",
+    photo: "ref-koncert-hala",
     evidence: ["spartan-warriors", "benefic-deti-detom", "meet-up-2025"],
   },
   {
@@ -40,7 +40,7 @@ export const services: Service[] = [
       sk: "Systémové pódiové podesty a hliníkové strechy s truss konštrukciou. Postavíme ich na lúke, na parkovisku aj priamo na lyžiarskom svahu.",
       en: "System stage decks and aluminium roofs on truss structures. Built on a meadow, on a car park, or directly on a ski slope.",
     },
-    photo: "strecha-krajina",
+    photo: "podium-nivtec",
     evidence: ["snow-fest", "gafa-car-fest", "ct-park", "krusetnica-dni-obce"],
   },
   {
@@ -70,7 +70,7 @@ export const services: Service[] = [
       sk: "Od prázdnej lúky po hotové podujatie. Pódium, strecha, zvuk, svetlo, obrazovka a obsluha počas celého programu, na jednu objednávku a s jedným zodpovedným človekom.",
       en: "From an empty field to a finished event. Stage, roof, sound, lighting, screen and an operating crew for the whole programme, in a single booking with one person responsible.",
     },
-    photo: "podium-komplet",
+    photo: "sklad-technika",
     evidence: ["snow-fest", "klin-den-obce", "gafa-car-fest", "vavrecka-dni-obce"],
   },
 ];

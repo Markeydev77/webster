@@ -1,10 +1,11 @@
 "use client";
 
-import { useActionState, useEffect, useRef } from "react";
+import { useActionState, useEffect, useRef, useState } from "react";
 import { submitContact } from "@/app/actions";
 import { initialFormState } from "@/lib/form-state";
 import { Field, ConsentCheckbox, Honeypot } from "@/components/form/fields";
-import { getDictionary, type Locale } from "@/lib/i18n";
+import { eventTypes, OTHER_EVENT_TYPE } from "@/content/event-types";
+import { pick, getDictionary, type Locale } from "@/lib/i18n";
 
 export type ContactDetails = {
   phone: string | null;
@@ -29,12 +30,21 @@ const socialNames: Record<string, string> = {
   tiktok: "TikTok",
 };
 
+/**
+ * Jediný formulár na webe.
+ *
+ * Po zrušení rezervácie sem pribudol telefón a typ podujatia, obidve
+ * nepovinné. Bez nich by z dopytu ostalo len meno, e-mail a text, čo je
+ * na naplánovanie akcie málo. Povinné zostávajú tri polia, aby formulár
+ * neodradil niekoho, kto sa iba pýta.
+ */
 export function Contact({ locale, details, social, serviceArea }: Props) {
   const d = getDictionary(locale);
   const t = d.contact;
-  const r = d.reservation;
+  const f = d.form;
 
   const [state, action, pending] = useActionState(submitContact, initialFormState);
+  const [type, setType] = useState("");
   const statusRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -142,17 +152,17 @@ export function Contact({ locale, details, social, serviceArea }: Props) {
               {state.status === "success" && (
                 <div className="rounded-md border border-brand/45 bg-brand-ink p-6">
                   <p className="font-display text-[1.2rem] font-semibold tracking-tight text-brand-lift">
-                    {r.successTitle}
+                    {f.successTitle}
                   </p>
-                  <p className="mt-2 text-[0.95rem] leading-relaxed text-muted">{r.successBody}</p>
+                  <p className="mt-2 text-[0.95rem] leading-relaxed text-muted">{f.successBody}</p>
                 </div>
               )}
               {state.status === "error" && err.form && (
                 <div className="mb-6 rounded-md border border-red-500/45 bg-red-950/25 p-6">
                   <p className="font-display text-[1.05rem] font-semibold tracking-tight text-red-300">
-                    {r.errorTitle}
+                    {f.errorTitle}
                   </p>
-                  <p className="mt-2 text-[0.95rem] leading-relaxed text-muted">{r.errorBody}</p>
+                  <p className="mt-2 text-[0.95rem] leading-relaxed text-muted">{f.errorBody}</p>
                 </div>
               )}
             </div>
@@ -165,11 +175,11 @@ export function Contact({ locale, details, social, serviceArea }: Props) {
                 <div className="grid gap-6 sm:grid-cols-2">
                   <Field
                     id="kon-name"
-                    label={t.formName}
+                    label={f.name}
                     required
                     error={err.name}
-                    requiredLabel={r.required}
-                    optionalLabel={r.optional}
+                    requiredLabel={f.required}
+                    optionalLabel={f.optional}
                   >
                     {(p) => (
                       <input {...p} name="name" type="text" autoComplete="name" defaultValue={val.name ?? ""} />
@@ -178,11 +188,11 @@ export function Contact({ locale, details, social, serviceArea }: Props) {
 
                   <Field
                     id="kon-email"
-                    label={t.formEmail}
+                    label={f.email}
                     required
                     error={err.email}
-                    requiredLabel={r.required}
-                    optionalLabel={r.optional}
+                    requiredLabel={f.required}
+                    optionalLabel={f.optional}
                   >
                     {(p) => (
                       <input
@@ -195,23 +205,81 @@ export function Contact({ locale, details, social, serviceArea }: Props) {
                       />
                     )}
                   </Field>
+
+                  <Field
+                    id="kon-phone"
+                    label={f.phone}
+                    error={err.phone}
+                    requiredLabel={f.required}
+                    optionalLabel={f.optional}
+                  >
+                    {(p) => (
+                      <input
+                        {...p}
+                        name="phone"
+                        type="tel"
+                        inputMode="tel"
+                        autoComplete="tel"
+                        defaultValue={val.phone ?? ""}
+                      />
+                    )}
+                  </Field>
+
+                  <Field
+                    id="kon-type"
+                    label={f.type}
+                    error={err.type}
+                    requiredLabel={f.required}
+                    optionalLabel={f.optional}
+                  >
+                    {(p) => (
+                      <select
+                        {...p}
+                        name="type"
+                        value={type}
+                        onChange={(e) => setType(e.target.value)}
+                      >
+                        <option value="">{f.typePlaceholder}</option>
+                        {eventTypes.map((e) => (
+                          <option key={e.id} value={e.id}>
+                            {pick(e.label, locale)}
+                          </option>
+                        ))}
+                      </select>
+                    )}
+                  </Field>
                 </div>
+
+                {type === OTHER_EVENT_TYPE && (
+                  <Field
+                    id="kon-type-other"
+                    label={f.typeOther}
+                    error={err.typeOther}
+                    requiredLabel={f.required}
+                    optionalLabel={f.optional}
+                  >
+                    {(p) => (
+                      <input {...p} name="typeOther" type="text" defaultValue={val.typeOther ?? ""} />
+                    )}
+                  </Field>
+                )}
 
                 <Field
                   id="kon-message"
-                  label={t.formMessage}
+                  label={f.message}
+                  hint={f.messagePlaceholder}
                   required
                   error={err.message}
-                  requiredLabel={r.required}
-                  optionalLabel={r.optional}
+                  requiredLabel={f.required}
+                  optionalLabel={f.optional}
                 >
                   {(p) => <textarea {...p} name="message" rows={6} defaultValue={val.message ?? ""} />}
                 </Field>
 
                 <ConsentCheckbox
                   id="kon-consent"
-                  label={r.consent}
-                  linkLabel={r.consentLink}
+                  label={f.consent}
+                  linkLabel={f.consentLink}
                   href={`/${locale}/ochrana-osobnych-udajov`}
                   error={err.consent}
                 />
@@ -220,14 +288,15 @@ export function Contact({ locale, details, social, serviceArea }: Props) {
                   <button
                     type="submit"
                     disabled={pending}
-                    className="inline-flex items-center justify-center rounded-md border border-brand/55
-                      bg-brand-ink px-8 py-4 text-[0.98rem] font-semibold tracking-tight text-brand-lift
-                      transition-colors duration-300 hover:bg-brand hover:text-white
+                    className="inline-flex items-center justify-center rounded-md bg-brand px-8 py-4
+                      text-[0.98rem] font-semibold tracking-tight text-white
+                      shadow-[0_1px_0_0_rgba(255,255,255,0.28)_inset]
+                      transition-colors duration-300 hover:bg-brand-lift
                       disabled:cursor-wait disabled:opacity-70"
                   >
-                    {pending ? r.sending : t.submit}
+                    {pending ? f.sending : t.submit}
                   </button>
-                  <p className="text-[0.84rem] text-muted-2">{r.afterSubmit}</p>
+                  <p className="text-[0.84rem] text-muted-2">{f.afterSubmit}</p>
                 </div>
               </form>
             )}

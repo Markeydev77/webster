@@ -13,6 +13,10 @@ type Props = {
   evidenceLabel: string;
 };
 
+/** Veľká kotviaca fotografia sekcie. Exportovaná, aby náhľad referencií
+ *  vedel túto fotku preskočiť a nezopakoval ju na tej istej stránke. */
+export const ANCHOR_PHOTO = "ref-klin";
+
 const titleOf = (id: string, locale: Locale) => {
   const ref = references.find((r) => r.id === id);
   return ref ? pick(ref.title, locale) : null;
@@ -42,7 +46,7 @@ export function Services({ locale, eyebrow, headline, lead, punch, evidenceLabel
       {/* Kotviaca fotografia: reálne postavené pódium so strechou a ozvučením */}
       <div className="mt-14 overflow-hidden sm:mt-16">
         <Photo
-          slug="podium-komplet"
+          slug={ANCHOR_PHOTO}
           locale={locale}
           sizes="100vw"
           className="photo-reveal block aspect-[16/9] w-full sm:aspect-[21/9]"

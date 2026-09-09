@@ -172,7 +172,7 @@ export const equipment: EquipmentCategory[] = [
       sk: "Prestrešenie pódia pre podujatia, ktoré musia ísť aj za dažďa.",
       en: "Stage cover for events that have to go ahead in the rain.",
     },
-    photo: "strecha-krajina",
+    photo: "podium-komplet",
     items: [
       {
         name: { sk: "Sedlová strecha na truss vežiach", en: "Gable roof on truss towers" },
