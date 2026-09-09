@@ -277,8 +277,8 @@
     },
     "source": "Fotky technika/Akcie/BOX/IMG_2047.JPG"
   },
-  "ref-spartan-ring": {
-    "slug": "ref-spartan-ring",
+  "ref-spartan-hala": {
+    "slug": "ref-spartan-hala",
     "width": 1280,
     "height": 853,
     "aspect": 1.5,
@@ -295,23 +295,24 @@
     },
     "source": "Fotky technika/Akcie/BOX/IMG_2033.JPG"
   },
-  "ref-spartan-sala": {
-    "slug": "ref-spartan-sala",
-    "width": 1280,
-    "height": 720,
+  "ref-spartan-ring": {
+    "slug": "ref-spartan-ring",
+    "width": 1920,
+    "height": 1080,
     "aspect": 1.7778,
     "widths": [
-      480,
-      800,
-      1280
+      640,
+      1080,
+      1600,
+      1920
     ],
-    "largest": 1280,
+    "largest": 1920,
     "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAAsAPwlur0+rpiQiMAgBcCEJaAAAW+FaNYWP6RVzWAD+2QZzdvRfuggM2P/WvP2UYdtHjts6FuFei2h1OP50tAA=",
     "alt": {
-      "sk": "Sála s ringom, LED obrazovkou a osvetlením počas bojového podujatia",
-      "en": "Venue with ring, LED screen and lighting during a combat sports event"
+      "sk": "Ring nasvietený modrými a červenými lúčmi z dvoch truss mostov, v ringu traja muži s mikrofónom",
+      "en": "Boxing ring lit by blue and red beams from two truss bridges, three men with a microphone inside"
     },
-    "source": "Fotky technika/Akcie/BOX/IMG_8824.JPG"
+    "source": "Fotky technika/Akcie/BOX/box.JPG"
   },
   "ref-spartan-detail": {
     "slug": "ref-spartan-detail",

@@ -207,7 +207,7 @@ export const references: EventReference[] = [
     date: "5/2025",
     category: "sport",
     photo: "ref-spartan",
-    gallery: ["ref-spartan-ring", "ref-spartan-sala", "ref-spartan-detail"],
+    gallery: ["ref-spartan-ring", "ref-spartan-hala", "ref-spartan-detail"],
     delivered: ["zvuk", "svetlo", "led", "efekty"],
   },
   {

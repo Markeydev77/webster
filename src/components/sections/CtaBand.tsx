@@ -15,7 +15,7 @@ export function CtaBand({ locale }: { locale: Locale }) {
   return (
     <section className="relative isolate overflow-hidden border-t border-line">
       <Photo
-        slug="strecha-krajina"
+        slug="ref-spartan-ring"
         locale={locale}
         sizes="100vw"
         className="absolute inset-0 -z-20 block h-full w-full"

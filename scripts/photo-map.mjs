@@ -166,7 +166,7 @@ export const PHOTOS = [
     },
   },
   {
-    slug: "ref-spartan-ring",
+    slug: "ref-spartan-hala",
     src: "Fotky technika/Akcie/BOX/IMG_2033.JPG",
     tier: "card",
     focus: "center",
@@ -176,13 +176,13 @@ export const PHOTOS = [
     },
   },
   {
-    slug: "ref-spartan-sala",
-    src: "Fotky technika/Akcie/BOX/IMG_8824.JPG",
-    tier: "card",
+    slug: "ref-spartan-ring",
+    src: "Fotky technika/Akcie/BOX/box.JPG",
+    tier: "plate",
     focus: "center",
     alt: {
-      sk: "Sála s ringom, LED obrazovkou a osvetlením počas bojového podujatia",
-      en: "Venue with ring, LED screen and lighting during a combat sports event",
+      sk: "Ring nasvietený modrými a červenými lúčmi z dvoch truss mostov, v ringu traja muži s mikrofónom",
+      en: "Boxing ring lit by blue and red beams from two truss bridges, three men with a microphone inside",
     },
   },
   {
