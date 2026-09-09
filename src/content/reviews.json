@@ -1,0 +1,5 @@
+{
+  "_comment": "Reálne recenzie zákazníkov. V dodaných podkladoch nebola ani jedna, preto je zoznam prázdny. Sekcia recenzií sa na webe NEZOBRAZÍ, kým tu nebudú aspoň tri záznamy. Vymyslené recenzie sú neprípustné. Formát záznamu: { id, author, org, text, rating (1-5), source, date }. Pole source je nepovinné a slúži na uvedenie pôvodu, napr. \"Google\" alebo \"Facebook\".",
+  "minimumToDisplay": 3,
+  "items": []
+}

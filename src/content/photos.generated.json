@@ -1,0 +1,656 @@
+{
+  "hero-koncert": {
+    "slug": "hero-koncert",
+    "width": 2560,
+    "height": 1440,
+    "aspect": 1.7778,
+    "widths": [
+      640,
+      1080,
+      1600,
+      2200,
+      2560
+    ],
+    "largest": 2560,
+    "placeholder": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAAsAPwlysVArpqSisAgBcCEJZQAAUqkG/chHNZ7MAAD+6PDvgQocKa1TRyyh9pdWU5LkRf4AAA==",
+    "alt": {
+      "sk": "Dav pred pódiom pod vejárom svetelných lúčov na koncerte v hale",
+      "en": "Crowd in front of a stage under a fan of light beams at an indoor concert"
+    },
+    "source": "Fotky technika/Akcie/Koncerty/IMG_4310.JPG"
+  },
+  "podium-komplet": {
+    "slug": "podium-komplet",
+    "width": 1920,
+    "height": 1080,
+    "aspect": 1.7778,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1920
+    ],
+    "largest": 1920,
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAAsAPwlurk+rpiQiMAgBcCEJYwCdABu1X5JAvYBbOAAA+BuzFKly7xlYwjyoDfcrw726myinzlOmDt3p0oAA",
+    "alt": {
+      "sk": "Kompletné prestrešené pódium s line array ozvučením a kapelou pri zvukovej skúške",
+      "en": "Complete covered stage with line array sound system and a band at soundcheck"
+    },
+    "source": "Fotky technika/Komplet/IMG_1533.JPG"
+  },
+  "strecha-krajina": {
+    "slug": "strecha-krajina",
+    "width": 1920,
+    "height": 1080,
+    "aspect": 1.7778,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1920
+    ],
+    "largest": 1920,
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAAsAPwl0sFCrpySisAgBcCEJYwC7ACHeP8aQ1JNGYMAA/mFGPuYGUp/qLrJOEvwpebNMUPo4/vzTVcrzi0AA",
+    "alt": {
+      "sk": "Postavená hliníková strecha s pódiom na kopci nad obcou za súmraku",
+      "en": "Assembled aluminium stage roof on a hillside above a village at dusk"
+    },
+    "source": "Fotky technika/Strecha/IMG_2345.JPG"
+  },
+  "sklad-technika": {
+    "slug": "sklad-technika",
+    "width": 1920,
+    "height": 1530,
+    "aspect": 1.2547,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1920
+    ],
+    "largest": 1920,
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoUABAAPwlur0+rpiQiMAgBcCEJZQDImBJ/seqSnC73AADM53JdfPspasWxuhjAoWQD5iJ/NKMFASdSGxkhOAAA",
+    "alt": {
+      "sk": "Sklad techniky Webster Sound & Light s flightcasmi, truss dielmi a reproduktormi",
+      "en": "Webster Sound & Light equipment store with flight cases, truss sections and speakers"
+    },
+    "source": "Fotky technika/Svetla/IMG_2315.JPG"
+  },
+  "zvuk-linearray-vonku": {
+    "slug": "zvuk-linearray-vonku",
+    "width": 972,
+    "height": 1728,
+    "aspect": 0.5625,
+    "widths": [
+      365,
+      608,
+      972
+    ],
+    "largest": 972,
+    "placeholder": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACQBQCdASoUACQAPu1kpk+ppiOiOrmYATAdiWcAwggZ7BJheQe8cryrcLidFnT5v7qaQhwXAAD+cZmsAPCqWRfitiRHsBe4t9vHOvAfNN3AGHclh69Lu/O2oTl6cZY8HDv3w7MRxx4nR797HLDC/Kkpa9qVtGLVdHWVG6VOaPOLQwAA",
+    "alt": {
+      "sk": "Zavesený line array a stohované subwoofery pri vonkajšom pódiu",
+      "en": "Flown line array and stacked subwoofers beside an outdoor stage"
+    },
+    "source": "Fotky technika/Zvuk/IMG_2259.JPG"
+  },
+  "zvuk-linearray-hala": {
+    "slug": "zvuk-linearray-hala",
+    "width": 972,
+    "height": 1728,
+    "aspect": 0.5625,
+    "widths": [
+      365,
+      608,
+      972
+    ],
+    "largest": 972,
+    "placeholder": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAACQBgCdASoUACQAPwlur1GrpiQiqrgN+XAhCWcAyngeDenU+W76gs6KQ41qLhbSvMHnW4+gNqYr6E7WL/oAAP0dNMWIZnpSXaOnwiPDJlmPPV58vUMJxXBDz3IlcyZZco85qo/SNT2vGgiZDWgqZXmMOyTeg5EPpWoX4c+bPiiUXKt5k3BEf5YsAAA=",
+    "alt": {
+      "sk": "Line array zavesený na truss konštrukcii v hale, vedľa pohyblivé svetlá",
+      "en": "Line array flown from a truss inside a hall, moving lights alongside"
+    },
+    "source": "Fotky technika/Zvuk/IMG_4276.JPG"
+  },
+  "zvuk-linearray-stack": {
+    "slug": "zvuk-linearray-stack",
+    "width": 972,
+    "height": 1728,
+    "aspect": 0.5625,
+    "widths": [
+      365,
+      608,
+      972
+    ],
+    "largest": 972,
+    "placeholder": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACQBQCdASoUACQAPulmp0+pJiOiOrmYASAdCWcAzcAeXxLwVVcNDFjYFEv8oZG0+jItA1a4AAD+xrv7re2+W03Q+Irq78lFp/sB73JLDdTCoCXdTfuw012CncMeJG+wMZurWxg83wpjjQD87JfQvy6BwAA=",
+    "alt": {
+      "sk": "Stohovaná zostava line array reproduktorov a subwooferu pod prístreškom",
+      "en": "Ground-stacked line array and subwoofer under a canopy"
+    },
+    "source": "Fotky technika/Zvuk/IMG_2266.JPG"
+  },
+  "zvuk-sala": {
+    "slug": "zvuk-sala",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7782,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAAsAPwlysVArpqSisAgBcCEJaACsACHD1PMsqLnfAAD+TVaiClE6ST2ghUOuXFrpLRK8f1/P3ULe/KvDj5EBl3Tqcwk1OBZtAAAA",
+    "alt": {
+      "sk": "Ozvučenie kultúrnej sály: line array po stranách javiska a subwoofery pred pódiom",
+      "en": "Hall sound system: line arrays flanking the stage with subwoofers in front"
+    },
+    "source": "Fotky technika/Zvuk/IMG_3745.JPEG"
+  },
+  "mikrofony-bezdrotove": {
+    "slug": "mikrofony-bezdrotove",
+    "width": 972,
+    "height": 1728,
+    "aspect": 0.5626,
+    "widths": [
+      365,
+      608,
+      972
+    ],
+    "largest": 972,
+    "placeholder": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBgCdASoUACQAPwlyr1CrpqQiqqwBcCEJZQDMi4CBMXKwgCe3pMbI8k0/V1EMBWUspYwnvuo2z5wAAP6Mbk19AiYOQtYm+9dc1Z+ybWiFvQto9+JXHMpxtEE2nTiMMpDu6KpQL/UN93h4AjcafRd85KGJQh0KAdTLkgi7bPojJCY7+AA=",
+    "alt": {
+      "sk": "Racky bezdrôtových prijímačov Sennheiser s ručnými mikrofónmi a bodypackmi",
+      "en": "Racks of Sennheiser wireless receivers with handheld microphones and bodypacks"
+    },
+    "source": "Fotky technika/Zvuk/Mikrofony/IMG_0570.JPEG"
+  },
+  "svetla-moving-heads": {
+    "slug": "svetla-moving-heads",
+    "width": 972,
+    "height": 1728,
+    "aspect": 0.5626,
+    "widths": [
+      365,
+      608,
+      972
+    ],
+    "largest": 972,
+    "placeholder": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABwBgCdASoUACQAPv1mqU+rJaOiNVgMAWAfiWcA0QgWU9spDLb03dKIYhBaFJzZbAvOC9SawKN+7mTDgLAA/tNIq2X4aQAds7XOHZqm19aLVg2Wf0EkihVzVEXI+xek166FkUIdQRFbk824EcVUdKSIYZEiQrf2z34JDiQhC8IAAA==",
+    "alt": {
+      "sk": "Pripravená zostava pohyblivých svetelných hláv typu beam, spot a LED wash",
+      "en": "A prepared set of beam, spot and LED wash moving head fixtures"
+    },
+    "source": "Fotky technika/Svetla/IMG_0810.JPEG"
+  },
+  "truss-sklad": {
+    "slug": "truss-sklad",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7774,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAAsAPwl0sFCrpySisAgBcCEJZwAAPIIni1eSNkX2QAD1L0l1ErQqed9b3nXaGMWYzvgaKawAAA==",
+    "alt": {
+      "sk": "Hliníkový štvorcový truss v rôznych dĺžkach, rohové kocky a vežové diely",
+      "en": "Square aluminium truss in various lengths with corner blocks and tower sections"
+    },
+    "source": "Fotky technika/Truss/IMG_0494.JPEG"
+  },
+  "podium-nivtec": {
+    "slug": "podium-nivtec",
+    "width": 972,
+    "height": 1728,
+    "aspect": 0.5626,
+    "widths": [
+      365,
+      608,
+      972
+    ],
+    "largest": 972,
+    "placeholder": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwBACdASoUACQAPwlus1ErpiSisBVaqXAhCUAXz3YAIt0I0FjL6TdpiTR2ea8FhAAA/q8UQHjMRPvk0cWpMWTB5LiIUu3ZV8RYlv4u8vUYKhKZHFX5Kr9aJxeo+DRwgJJw6WVZy4DPIXSRhs6wmDGLd4AAAA==",
+    "alt": {
+      "sk": "Stoh systémových pódiových podest Nivtec s certifikačnými štítkami",
+      "en": "Stack of Nivtec system stage decks with certification labels"
+    },
+    "source": "Fotky technika/Strecha/Nivtec/IMG_0805.JPEG"
+  },
+  "ref-klin": {
+    "slug": "ref-klin",
+    "width": 1920,
+    "height": 1080,
+    "aspect": 1.7778,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1920
+    ],
+    "largest": 1920,
+    "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAwCdASoUAAsAPwlwsFArpiSisAgBcCEJYwCdMoADTUShMF1I2EwAAPJRrzRFvm28h3evRySeKZSCgC9F8A8AAAA=",
+    "alt": {
+      "sk": "Prestrešené pódium na Dni obce Klin s detským folklórnym súborom",
+      "en": "Covered stage at the Klin village day with a children's folk ensemble"
+    },
+    "source": "Fotky technika/Komplet/IMG_9867.JPG"
+  },
+  "ref-gafa": {
+    "slug": "ref-gafa",
+    "width": 1920,
+    "height": 1080,
+    "aspect": 1.7778,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1920
+    ],
+    "largest": 1920,
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAAsAPwl0s1CrpySisAgBcCEJYwCdACHXGzYjNEsgAP6wZnFJ0Z7Ht9Cd/CCRMJKPvTZxpM+jok4EzihgAA==",
+    "alt": {
+      "sk": "Prestrešené pódium s LED obrazovkou na podujatí GAFA Car fest",
+      "en": "Covered stage with an LED screen at the GAFA Car fest"
+    },
+    "source": "Fotky technika/Komplet/IMG_9294.JPG"
+  },
+  "ref-spartan": {
+    "slug": "ref-spartan",
+    "width": 1920,
+    "height": 1280,
+    "aspect": 1.5,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1920
+    ],
+    "largest": 1920,
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APwlwsFArpiSisAgBcCEJZgCw7BuMPREn6rtwVoKAAPxOetAvK4Y7SplCC4jp4GaKpzDdh0Qv0VmFLxD5clQJzdQE712SnKK4AAA=",
+    "alt": {
+      "sk": "Nástup zápasníka pred LED obrazovkou s plameňovými efektmi na podujatí Spartan Warriors",
+      "en": "Fighter walkout in front of an LED screen with flame effects at a Spartan Warriors event"
+    },
+    "source": "Fotky technika/Akcie/BOX/IMG_2047.JPG"
+  },
+  "ref-spartan-ring": {
+    "slug": "ref-spartan-ring",
+    "width": 1280,
+    "height": 853,
+    "aspect": 1.5,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAwCdASoUAA0APwl0s1CrpySisAgBcCEJYwC7ABXz9l5CR2sPH6AA/c71UOpnvuTUHJos73T7cbqyYA+i6CUCi2/lsic6oAA=",
+    "alt": {
+      "sk": "Nasvietený ring počas športového bojového podujatia",
+      "en": "Lit ring during a combat sports event"
+    },
+    "source": "Fotky technika/Akcie/BOX/IMG_2033.JPG"
+  },
+  "ref-spartan-sala": {
+    "slug": "ref-spartan-sala",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7778,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoUAAsAPwlur0+rpiQiMAgBcCEJaAAAW+FaNYWP6RVzWAD+2QZzdvRfuggM2P/WvP2UYdtHjts6FuFei2h1OP50tAA=",
+    "alt": {
+      "sk": "Sála s ringom, LED obrazovkou a osvetlením počas bojového podujatia",
+      "en": "Venue with ring, LED screen and lighting during a combat sports event"
+    },
+    "source": "Fotky technika/Akcie/BOX/IMG_8824.JPG"
+  },
+  "ref-spartan-detail": {
+    "slug": "ref-spartan-detail",
+    "width": 972,
+    "height": 1728,
+    "aspect": 0.5625,
+    "widths": [
+      365,
+      608,
+      972
+    ],
+    "largest": 972,
+    "placeholder": "data:image/webp;base64,UklGRqYAAABXRUJQVlA4IJoAAABQBQCdASoUACQAPwl4s1OrpySipWzJcCEJQBZZhrFMcGed+9PwX+5J3TrEk1Q85vYCWcAA/nvcCW/cQDKorjrkc7iP81T0tZHLgW1iPFCr8gnuno+LK4cc44LKG9TJcJjUsJQyRrdnCi4qP4wFL4KVR2CW2vTKLc6z2CuF38ILrP1wgeg4ENYrLFZJ/pGysJUcr2sEdzgOQoAA",
+    "alt": {
+      "sk": "Detail osvetlenia a LED obrazovky pri športovom bojovom podujatí",
+      "en": "Lighting and LED screen detail at a combat sports event"
+    },
+    "source": "Fotky technika/Akcie/BOX/IMG_8811.JPG"
+  },
+  "ref-benefit-folklor": {
+    "slug": "ref-benefit-folklor",
+    "width": 1920,
+    "height": 1277,
+    "aspect": 1.503,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1920
+    ],
+    "largest": 1920,
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoUAA0APwlur0+rpiQiMAgBcCEJYgCdMoADK1BtSgU9qVpYMAD+3Exr4DguUYntpaZLPLEdI7Zd8p5IATeA02TLm/MMgKgnbrOgAA==",
+    "alt": {
+      "sk": "Folklórna kapela pred LED obrazovkou s ľudovým motívom na benefičnom koncerte",
+      "en": "Folk band in front of an LED screen with a traditional motif at a charity concert"
+    },
+    "source": "Fotky technika/Akcie/Benneficny koncert/IMG_6785.JPG"
+  },
+  "ref-benefit-zbor": {
+    "slug": "ref-benefit-zbor",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7778,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAwCdASoUAAsAPwlws0+rpqUiMAgBcCEJQBOgDSv/MzACDaAAAP6q+7qvWx9c4v+OFDX3tZTB3q96POKyzQ3R8KRXkyf94NxZZHyC7BJkN6UYAAA=",
+    "alt": {
+      "sk": "Účinkujúci na nasvietenom javisku počas benefičného koncertu",
+      "en": "Performers on a lit stage during a charity concert"
+    },
+    "source": "Fotky technika/Akcie/Benneficny koncert/IMG_5863.JPG"
+  },
+  "ref-benefit-final": {
+    "slug": "ref-benefit-final",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7774,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAAsAPwlusE+rpiSiMAgBcCEJZAC2yBR8RlPHe2WHJAAA/p7UOydNpOAqeJeuqylXqBu2c1u4aGTjCSouSwMnzmz/DbUAAAA=",
+    "alt": {
+      "sk": "Záver benefičného koncertu s vyhlásením vyzbieranej sumy na LED obrazovke",
+      "en": "Finale of a charity concert with the amount raised shown on the LED screen"
+    },
+    "source": "Fotky technika/Akcie/Benneficny koncert/IMG_9070.JPEG"
+  },
+  "ref-benefit-detail": {
+    "slug": "ref-benefit-detail",
+    "width": 768,
+    "height": 511,
+    "aspect": 1.5026,
+    "widths": [
+      400,
+      768
+    ],
+    "largest": 768,
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoUAA0APwlwr1ArpqQisAgBcCEJZgC06CHh39d5PowROmAA/uYO+zFvrfCM2YsmYyoaKURUiYiVUvzLfsZ27np8+k95ZuZhQAA=",
+    "alt": {
+      "sk": "Pohľad na javisko počas benefičného koncertu",
+      "en": "View of the stage during a charity concert"
+    },
+    "source": "Fotky technika/Akcie/Benneficny koncert/IMG_2271.JPG"
+  },
+  "ref-cervena-streda": {
+    "slug": "ref-cervena-streda",
+    "width": 1458,
+    "height": 2592,
+    "aspect": 0.5625,
+    "widths": [
+      486,
+      820,
+      1215,
+      1458
+    ],
+    "largest": 1458,
+    "placeholder": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAQBQCdASoUACQAPwFwrE+rJyQiNVgIAWAgCWgAxvQWWrpm7fk7IqdgkEclzJ5DtvAAAP7w1mY4ZqxNSOViOeqFunRV+zi2r0kb5fmwfF4SH7+oCreNH4D0WTjZjtkITq6yK55ubmhjXceL0BUwAA==",
+    "alt": {
+      "sk": "Kostol nasvietený na červeno so svetelnými lúčmi počas Červenej stredy",
+      "en": "Church floodlit in red with light beams during Red Wednesday"
+    },
+    "source": "Fotky technika/Akcie/Nasvietenie/IMG_5480.JPG"
+  },
+  "ref-nasvietenie": {
+    "slug": "ref-nasvietenie",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7778,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABwAwCdASoUAAsAPwlur0+rpiQiMAgBcCEJbACdACHfxtiuQzAA/vDIJ17hHfZboDI721KqX+9ZeNi3stv2GWRaoLEx3YAA",
+    "alt": {
+      "sk": "Architektúrne nasvietenie budovy počas večerného podujatia",
+      "en": "Architectural floodlighting of a building during an evening event"
+    },
+    "source": "Fotky technika/Akcie/Nasvietenie/IMG_5488.JPG"
+  },
+  "ref-koncert-amfiteater": {
+    "slug": "ref-koncert-amfiteater",
+    "width": 1920,
+    "height": 1080,
+    "aspect": 1.7778,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1920
+    ],
+    "largest": 1920,
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAAsAPwlur0+rpiQiMAgBcCEJYgCdMoADTqb3kF03A/mAAP7l/8i55qv63I82gcJKC08U6cLfnVy54rix2SfX4cZAaGoRvRwAAA==",
+    "alt": {
+      "sk": "Kapela na drevenom amfiteátri s nasvietením a line array ozvučením, dav pred pódiom",
+      "en": "Band on a wooden amphitheatre stage with lighting and line array sound, crowd in front"
+    },
+    "source": "Fotky technika/Akcie/Koncerty/IMG_0085.JPG"
+  },
+  "ref-koncert-hala": {
+    "slug": "ref-koncert-hala",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7778,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoUAAsAPwlwr1ArpqQisAgBcCEJaACdAB5QH4OWnNlqQAD+6/y2Da+xVCkcwM2DXNt0CsoqZF/+zAvD9spMg10tf79QoAAA",
+    "alt": {
+      "sk": "Koncert v hale s pohyblivým osvetlením nad pódiom",
+      "en": "Indoor concert with moving lights above the stage"
+    },
+    "source": "Fotky technika/Akcie/Koncerty/IMG_4101.JPG"
+  },
+  "ref-party-jazero": {
+    "slug": "ref-party-jazero",
+    "width": 1920,
+    "height": 1080,
+    "aspect": 1.7778,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1920
+    ],
+    "largest": 1920,
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwAwCdASoUAAsAPwl0sFCrpySisAgBcCEJYwCo9CHapymlN8AA/e00UdLVYYgw27RthRITitAQjwQ0uqxubR9/ILFqLaYFZltIP+IAAAA=",
+    "alt": {
+      "sk": "Prestrešené pódium s LED obrazovkou a osvetlením pripravené na párty pri jazere",
+      "en": "Covered stage with LED screen and lighting prepared for a lakeside party"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_9737.JPG"
+  },
+  "ref-party-1": {
+    "slug": "ref-party-1",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7778,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAwCdASoUAAsALs2EwmEjq6uri4DMSgAAxZas4z8KwVozwAD+6TcuE9vAQtUMLfUlmx0ljdeEMBKvhTTXatXHHGwAAA==",
+    "alt": {
+      "sk": "Osvetlenie a dym počas večernej párty",
+      "en": "Lighting and haze during an evening party"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_3077.JPG"
+  },
+  "ref-party-2": {
+    "slug": "ref-party-2",
+    "width": 1280,
+    "height": 853,
+    "aspect": 1.5,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAwCdASoUAA0APwlurk+rpiQiMAgBcCEJQBOgAxtqsn4qLHsxZwAA/uWdyZp/Oc+mBVHLCobo200dFu2zImq+JmdOjJQQQtRWAAAA",
+    "alt": {
+      "sk": "Svetelná šou nad tanečným parketom",
+      "en": "Light show above a dance floor"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_4390.JPG"
+  },
+  "ref-party-3": {
+    "slug": "ref-party-3",
+    "width": 1280,
+    "height": 853,
+    "aspect": 1.5,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAA0APwlwr0+rpqQiMAgBcCEJQBOgAw4eZxJFkZD0oAD+6O4ZFnDKgbN9h4gIaOtMGJn64Muh+SHOh1w/e1bt3k3Q66ugAAA=",
+    "alt": {
+      "sk": "Pohyblivé svetlá a lúče počas diskotéky",
+      "en": "Moving lights and beams during a disco night"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_4393.JPG"
+  },
+  "ref-party-4": {
+    "slug": "ref-party-4",
+    "width": 1280,
+    "height": 720,
+    "aspect": 1.7782,
+    "widths": [
+      480,
+      800,
+      1280
+    ],
+    "largest": 1280,
+    "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAAsAPwlwr0+rpiQiMAgBcCEJZmR5RhYgAf9sAAD+7ldkEGV9Vy0gymT+ZpZyXj8idRTVOChz76s4AAA=",
+    "alt": {
+      "sk": "Nasvietený priestor pripravený na večernú zábavu",
+      "en": "Lit venue prepared for an evening event"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_6614.JPEG"
+  },
+  "ref-party-5": {
+    "slug": "ref-party-5",
+    "width": 691,
+    "height": 1037,
+    "aspect": 0.6667,
+    "widths": [
+      360,
+      691
+    ],
+    "largest": 691,
+    "placeholder": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAQBQCdASoUAB4APwlysVCrpqSiqA1RcCEJbACw7BDPa2/1C5YdOYd34se1JjAP6PXAAP7i9B2AqKi9A2G+Wq8reN4Qq5c7d6A+6QdIPYqhSclXHhWDe4Xzo0M3Pk2/U9B8Mn2AyfEXA5Z1xdRJ+zKG5KyqMm+eqXLIQlyHtJksNqm/FqsvgBscp4PbghErbL4uLYJtgAA=",
+    "alt": {
+      "sk": "Svetelné efekty počas párty",
+      "en": "Lighting effects during a party"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_4472.JPG"
+  },
+  "ref-party-6": {
+    "slug": "ref-party-6",
+    "width": 768,
+    "height": 512,
+    "aspect": 1.4993,
+    "widths": [
+      400,
+      768
+    ],
+    "largest": 768,
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACQBACdASoUAA0APwlur0+rpiQiMAgBcCEJaACdMoMYAEoulUThuiC6Y7QFpAAA/qwzeIR4l6yScA0zCj9VgM7l3RegxbDm2lnIQS9AGb4tS2qRzzun984aroAwgrgA",
+    "alt": {
+      "sk": "Osvetlenie tanečného priestoru",
+      "en": "Dance floor lighting"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_6336.JPG"
+  },
+  "ref-party-7": {
+    "slug": "ref-party-7",
+    "width": 768,
+    "height": 512,
+    "aspect": 1.4993,
+    "widths": [
+      400,
+      768
+    ],
+    "largest": 768,
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAA0APwlwsFArpiSisAgBcCEJZgCdACGuZ+N13ch5I9sgAP7BkshndCbGUe4fYp4I1b5slY1wjBxBpR8QTpZfyjo3QMHaTGynmkaAAAA=",
+    "alt": {
+      "sk": "Svetelné lúče nad davom",
+      "en": "Light beams above the crowd"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_6354.JPG"
+  },
+  "ref-party-8": {
+    "slug": "ref-party-8",
+    "width": 768,
+    "height": 512,
+    "aspect": 1.5004,
+    "widths": [
+      400,
+      768
+    ],
+    "largest": 768,
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAA0APwlwr1ArpqQisAgBcCEJYgCdAB6VhVaE/lGPEv4AAP7pQ2fb/LLfodJQA9w+l2fFgmtlXdjttxeLVJqrI3iivo+fQAA=",
+    "alt": {
+      "sk": "Nasvietené pódium počas zábavy",
+      "en": "Lit stage during an event"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_6500.JPG"
+  },
+  "ref-party-9": {
+    "slug": "ref-party-9",
+    "width": 768,
+    "height": 512,
+    "aspect": 1.5004,
+    "widths": [
+      400,
+      768
+    ],
+    "largest": 768,
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQBACdASoUAA0APwlurk+rpiQiMAgBcCEJYwCdO8ryAA2uSW10rLshQAD+3NXf05eTKuBh1nKEYMPINWy0IVjI/AwrcJwgAAA=",
+    "alt": {
+      "sk": "Svetelná atmosféra večernej akcie",
+      "en": "Lighting atmosphere of an evening event"
+    },
+    "source": "Fotky technika/Akcie/Diskoteky/IMG_6501.JPG"
+  }
+}
