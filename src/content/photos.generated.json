@@ -657,5 +657,294 @@
       "en": "Lighting atmosphere of an evening event"
     },
     "source": "Fotky technika/Akcie/Diskoteky/IMG_6501.JPG"
+  },
+  "ref-zakamenne": {
+    "slug": "ref-zakamenne",
+    "width": 946,
+    "height": 532,
+    "aspect": 1.7782,
+    "widths": [
+      640,
+      946
+    ],
+    "largest": 946,
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoUAAsAPwlwr0+rpqQiMAgBcCEJQBOgAbITFUDsjnsAAMs+ppFarPu9T7HQoof3jzsJy78y5QFtOWcW7auhm3GxZRDC4AAA",
+    "alt": {
+      "sk": "Kapela hrá na oblúkovom pódiu s červeným nasvietením a erbom v pozadí počas Dní obce Zákamenné",
+      "en": "A band performs on an arched stage with red lighting and a coat of arms backdrop at the Zákamenné village days"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-zakamenne.jpg"
+  },
+  "ref-novot": {
+    "slug": "ref-novot",
+    "width": 820,
+    "height": 615,
+    "aspect": 1.3333,
+    "widths": [
+      640,
+      820
+    ],
+    "largest": 820,
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQBACdASoUAA8APwlurk+rpiQiMAgBcCEJYwCdACKlDbXO10ecVMg/AAD+kVLNpEnd9n24oUmOljiICP0ypPLST2N3UjuxY/DsYwAA",
+    "alt": {
+      "sk": "Kapela na prestrešenom pódiu pred obchodným domom počas Dní obce Novoť",
+      "en": "A band on a covered stage in front of a shop building at the Novoť village days"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-novot.jpg"
+  },
+  "ref-bziny": {
+    "slug": "ref-bziny",
+    "width": 1210,
+    "height": 681,
+    "aspect": 1.7768,
+    "widths": [
+      640,
+      1080,
+      1210
+    ],
+    "largest": 1210,
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoUAAsAPwlwsE+rpqSiMAgBcCEJZQCw7CHMqCYE3+TcgAD+YUqd4LW4J7j/pf9LVWrYgDEADDruE9iFS4AAAA==",
+    "alt": {
+      "sk": "Folklórny súbor na pódiu s transparentom 680. výročia obce Bziny",
+      "en": "A folk ensemble on stage with a banner marking the 680th anniversary of Bziny"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-bziny.jpg"
+  },
+  "ref-krusetnica-pdf": {
+    "slug": "ref-krusetnica-pdf",
+    "width": 1210,
+    "height": 681,
+    "aspect": 1.7768,
+    "widths": [
+      640,
+      1080,
+      1210
+    ],
+    "largest": 1210,
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAAsAPwlusE+rpiSiMAgBcCEJQAALfXqNv4D/Q3agAP7u2RPLHYy2edhiO+XG1aHUUpPDHAA=",
+    "alt": {
+      "sk": "Kapela na prestrešenom pódiu s modrým a červeným nasvietením počas Dní obce Krušetnica",
+      "en": "A band on a covered stage with blue and red lighting at the Krušetnica village days"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-krusetnica-pdf.jpg"
+  },
+  "ref-zakafest": {
+    "slug": "ref-zakafest",
+    "width": 1210,
+    "height": 681,
+    "aspect": 1.7768,
+    "widths": [
+      640,
+      1080,
+      1210
+    ],
+    "largest": 1210,
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABQAwCdASoUAAsAPwl0sFCrpySisAgBcCEJZACdAAU42VADAADFOw3tMo721kRKxWZqzbV12DS3hNRxM1fyn8CVVqCrBcHugWAAAA==",
+    "alt": {
+      "sk": "Oblúkové pódium s nápisom ZAKAFEST na LED obrazovke a reklamnými bannermi",
+      "en": "Arched stage with the ZAKAFEST name on the LED screen and sponsor banners"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-zakafest.jpg"
+  },
+  "ref-snowfest": {
+    "slug": "ref-snowfest",
+    "width": 964,
+    "height": 1714,
+    "aspect": 0.5624,
+    "widths": [
+      486,
+      820,
+      964
+    ],
+    "largest": 964,
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwBQCdASoUACQAPvVoqU+qpiQiNUgBUB6JZQDKACzajymjbOVQGVxDHD9zGnJPfgRhAAD+UOCSyZAfe6d0M1sdhr1B5kJsHYTy5mTFYGoxM9z+F2DwOppyAFtz88b4OBAyAAAA",
+    "alt": {
+      "sk": "Prestrešené pódium so zasneženým lyžiarskym svahom Snow Festu v Oravskej Lesnej",
+      "en": "Covered stage on the snowy ski slope of the Snow Fest in Oravská Lesná"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-snowfest.jpg"
+  },
+  "ref-modna-prehliadka": {
+    "slug": "ref-modna-prehliadka",
+    "width": 1714,
+    "height": 964,
+    "aspect": 1.778,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1714
+    ],
+    "largest": 1714,
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAAsAPwlyr0+rpyQiMAgBcCEJYwCdABe1LyZjeeUBJMAA/IpgY8+viPUG1yJOFt+8CH/g+3msmXaA173s5l0J75QAAA==",
+    "alt": {
+      "sk": "Modelky na móle počas charitatívnej módnej prehliadky v centre Kežmarku",
+      "en": "Models on the runway during the charity fashion show in the centre of Kežmarok"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-modna-prehliadka.jpg"
+  },
+  "ref-plesova-1": {
+    "slug": "ref-plesova-1",
+    "width": 1392,
+    "height": 928,
+    "aspect": 1.5,
+    "widths": [
+      640,
+      1080,
+      1392
+    ],
+    "largest": 1392,
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAA0APwlurk+rpiQiMAgBcCEJYgCdABMMdamfyecAAPJ+PKoiadNn2zzMXPBGzkFgzUEuX14Y9iM6FLxBKvY6/yfQEKwYKcwAAA==",
+    "alt": {
+      "sk": "Slávnostne prestretá sála plesu s LED obrazovkou a nápisom Noc Oscárov",
+      "en": "A festively laid ballroom with an LED screen reading Night of the Oscars"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-plesova-1.jpg"
+  },
+  "ref-plesova-2": {
+    "slug": "ref-plesova-2",
+    "width": 1143,
+    "height": 643,
+    "aspect": 1.7776,
+    "widths": [
+      480,
+      800,
+      1143
+    ],
+    "largest": 1143,
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoUAAsAPwlwsFArpiSisAgBcCEJaACdMoADDWoDGL+pzVAA/qCsqij3SFXxJ/J31qVQJ06X+l/GQe2Rpd16BTLejEvDaFWxlgAAAA==",
+    "alt": {
+      "sk": "Pódium plesu s LED obrazovkou Noc Oscárov a disko guľou",
+      "en": "Ball stage with the Night of the Oscars LED screen and a disco ball"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-plesova-2.jpg"
+  },
+  "ref-plesova-3": {
+    "slug": "ref-plesova-3",
+    "width": 1210,
+    "height": 681,
+    "aspect": 1.7768,
+    "widths": [
+      480,
+      800,
+      1210
+    ],
+    "largest": 1210,
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABQAwCdASoUAAsAPwlwsFArpiSisAgBcCEJQBfnAF+22sgwAAD51rXlCOC0zqF9KssdAfv2rQAArvEg9s7M4hkrycISHWkAAAA=",
+    "alt": {
+      "sk": "LED steny s hviezdnym motívom a pohyblivé hlavy pripravené na plesovú sezónu",
+      "en": "LED walls with a starfield motif and moving heads prepared for the ball season"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-plesova-3.jpg"
+  },
+  "ref-omsa-1": {
+    "slug": "ref-omsa-1",
+    "width": 964,
+    "height": 1714,
+    "aspect": 0.5624,
+    "widths": [
+      486,
+      820,
+      964
+    ],
+    "largest": 964,
+    "placeholder": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACQBgCdASoUACQAPwl8sFOrp6QiqrgKAXAhCWIAwzQixpb2VDbL/64TLZIA7iUGaLSLco+SBuHjx5KnNsAAAP660ppjTDzZVJIaApJLxWe+yyW/AgRmrvKELT8Yc0m57ZUkhY96/zzLK0dAPIojs9Hr3BKU2el9eLdqTs/IVuvH9+zRD1rRP1l7u/vFAkPAjEAAAA==",
+    "alt": {
+      "sk": "Veriaci zhromaždení pred kostolom s obrazovkou pre prenos slávnostnej svätej omše",
+      "en": "Worshippers gathered outside a church with a screen relaying the solemn mass"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-omsa-1.jpg"
+  },
+  "ref-omsa-2": {
+    "slug": "ref-omsa-2",
+    "width": 681,
+    "height": 1210,
+    "aspect": 0.5628,
+    "widths": [
+      365,
+      608,
+      681
+    ],
+    "largest": 681,
+    "placeholder": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADQBACdASoUACQAPwFqsE+rJiUiMAqpYCAJTLaKUNHTrJD/QsXhgtdIguQOA10mAAD+w7vwCjJeRyEaxjWVG8k6xPK8UYd1MOBPilYZsDf7mVq3rim0EQtQ+D/mIzBePPJXe+IUtYSJeP2vyia8TVkQJoTf0YAA",
+    "alt": {
+      "sk": "LED obrazovka na fasáde kostola s prenosom primičnej svätej omše",
+      "en": "LED screen on a church facade relaying a first mass"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-omsa-2.jpg"
+  },
+  "ref-ocenenie-obcanov": {
+    "slug": "ref-ocenenie-obcanov",
+    "width": 908,
+    "height": 1613,
+    "aspect": 0.5629,
+    "widths": [
+      486,
+      821,
+      908
+    ],
+    "largest": 908,
+    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBQCdASoUACQAPwFgqU+rJSOiNVv4AWAgCWMAuwAhX86K7UsD4D7frARYQIyrQQ1yAAD+6NHxnB/qEd/vkogJg6QdSQu3kEFI1lOhPJ59dG+0HSbfrQvIGhCpYB6NQz5H4gJdG49/Ceza4urfJgAA",
+    "alt": {
+      "sk": "Sála s LED obrazovkou oznamujúcou oslavu 410. výročia obce Zákamenné pri slávnostnom ocenení občanov",
+      "en": "Hall with an LED screen announcing the 410th anniversary of Zákamenné at the civic awards ceremony"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-ocenenie-obcanov.jpg"
+  },
+  "ref-sportovec-roka": {
+    "slug": "ref-sportovec-roka",
+    "width": 1714,
+    "height": 964,
+    "aspect": 1.778,
+    "widths": [
+      640,
+      1080,
+      1600,
+      1714
+    ],
+    "largest": 1714,
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAwCdASoUAAsAPwlMvVmroqekmAFwIQlkALDsZ+xvPBb5eIAA/W9xmIj+VW8IeqTxIgfXIXi9QK927/F/veFZPfZIsEm7kCo4Qo/9QyqRCamSJ/hAAA==",
+    "alt": {
+      "sk": "Transparent Športovec roka v pretláčaní rukou v kamennej klenutej sále kaštieľa",
+      "en": "Athlete of the Year in arm wrestling banner in the vaulted stone hall of a manor house"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-sportovec-roka.jpg"
+  },
+  "ref-lepsia-konferencia": {
+    "slug": "ref-lepsia-konferencia",
+    "width": 964,
+    "height": 1714,
+    "aspect": 0.5624,
+    "widths": [
+      486,
+      820,
+      964
+    ],
+    "largest": 964,
+    "placeholder": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABwBQCdASoUACQAPwFqrU+rJiQiMBqtUWAgCWYAwrNHPB3/4BtB0RZ6joFLd6b49WFMNphQAPcEJaMhtXBaJ8lZSnNEsbCQywk3kVXTNAOKb5wHMSWC3AvGI5CamK0VY9+qZfu19b6kXn61zW8pyCtw3cS7bLMmKG+W8Gofac4E24buMNsy5jpLIHYKl+lAgcPssn21sBWmYfYMAAA=",
+    "alt": {
+      "sk": "Divadelná sála s pódiom a nápisom Lepšia Konferencia na plátne",
+      "en": "A theatre hall with a stage and the Lepšia Konferencia name on screen"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-lepsia-konferencia.jpg"
+  },
+  "ref-meetup-2025": {
+    "slug": "ref-meetup-2025",
+    "width": 1286,
+    "height": 2285,
+    "aspect": 0.5628,
+    "widths": [
+      486,
+      821,
+      1216,
+      1286
+    ],
+    "largest": 1286,
+    "placeholder": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABwBQCdASoUACQAPwl4sFIrp6SiqqoBcCEJYgDDVSAAxv7WFBYDUPugrFHNDgQxAL41C5EAAPxPC+OWU4ZfkZ8vLfwdHLP2PNUqKKHGTli1Nw69aQNvYiLAwKkZiAMkiEXTc1268K7WX62myUKNKe8UcRP/WMnlnYLzl+MIxzFb+0Ysg1wTDCivynPnAAAA",
+    "alt": {
+      "sk": "Konferenčná sála pripravená na Meet Up 2025 s premietaným programom",
+      "en": "Conference room set up for Meet Up 2025 with the programme projected on screen"
+    },
+    "source": "Fotky technika/Z PDF referencie/ref-meetup-2025.jpg"
   }
 }

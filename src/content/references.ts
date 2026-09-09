@@ -70,7 +70,7 @@ export const references: EventReference[] = [
     },
     date: "7/2024",
     category: "obce",
-    photo: null,
+    photo: "ref-zakamenne",
     delivered: ["zvuk", "svetlo"],
   },
   {
@@ -94,7 +94,7 @@ export const references: EventReference[] = [
     },
     date: "7/2025",
     category: "obce",
-    photo: null,
+    photo: "ref-novot",
     delivered: ["podium", "zvuk"],
   },
   {
@@ -134,7 +134,7 @@ export const references: EventReference[] = [
     },
     date: "8/2025",
     category: "obce",
-    photo: null,
+    photo: "ref-bziny",
     delivered: ["zvuk", "svetlo"],
   },
   {
@@ -158,7 +158,7 @@ export const references: EventReference[] = [
     },
     date: "8/2025",
     category: "obce",
-    photo: null,
+    photo: "ref-krusetnica-pdf",
     delivered: ["podium", "zvuk", "svetlo"],
   },
   {
@@ -170,7 +170,7 @@ export const references: EventReference[] = [
     },
     date: "8/2024",
     category: "festivaly",
-    photo: null,
+    photo: "ref-zakafest",
     delivered: ["zvuk", "svetlo"],
   },
   {
@@ -182,7 +182,7 @@ export const references: EventReference[] = [
     },
     date: "2/2026",
     category: "festivaly",
-    photo: null,
+    photo: "ref-snowfest",
     delivered: ["podium", "zvuk", "svetlo", "led"],
   },
   {
@@ -194,7 +194,7 @@ export const references: EventReference[] = [
     },
     date: "6/2025",
     category: "kultura",
-    photo: null,
+    photo: "ref-modna-prehliadka",
     delivered: ["zvuk", "svetlo", "podium"],
   },
   {
@@ -219,7 +219,8 @@ export const references: EventReference[] = [
     },
     date: null,
     category: "plesy",
-    photo: null,
+    photo: "ref-plesova-1",
+    gallery: ["ref-plesova-2", "ref-plesova-3"],
     delivered: ["zvuk", "svetlo", "led"],
   },
   {
@@ -257,7 +258,8 @@ export const references: EventReference[] = [
     },
     date: "8/2025",
     category: "cirkevne",
-    photo: null,
+    photo: "ref-omsa-1",
+    gallery: ["ref-omsa-2"],
     delivered: ["led", "zvuk"],
   },
   {
@@ -269,7 +271,7 @@ export const references: EventReference[] = [
     },
     date: "7/2025",
     category: "kultura",
-    photo: null,
+    photo: "ref-ocenenie-obcanov",
     delivered: ["zvuk", "svetlo", "led"],
   },
   {
@@ -281,7 +283,7 @@ export const references: EventReference[] = [
     },
     date: "12/2025",
     category: "sport",
-    photo: null,
+    photo: "ref-sportovec-roka",
     delivered: ["zvuk", "svetlo"],
   },
   {
@@ -293,7 +295,7 @@ export const references: EventReference[] = [
     },
     date: "3/2025",
     category: "konferencie",
-    photo: null,
+    photo: "ref-lepsia-konferencia",
     delivered: ["zvuk", "svetlo"],
   },
   {
@@ -305,7 +307,7 @@ export const references: EventReference[] = [
     },
     date: "12/2025",
     category: "konferencie",
-    photo: null,
+    photo: "ref-meetup-2025",
     delivered: ["zvuk", "svetlo"],
   },
   {

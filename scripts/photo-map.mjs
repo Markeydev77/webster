@@ -363,6 +363,171 @@ export const PHOTOS = [
     focus: "center",
     alt: { sk: "Svetelná atmosféra večernej akcie", en: "Lighting atmosphere of an evening event" },
   },
+
+  // ---- Referencie z "Naše referencie.pdf" ----------------------------------
+  // Firma dodala tento PDF katalóg s vlastnými fotkami k referenciám, ktoré
+  // dovtedy vo fotobanke chýbali. Fotky sú vytiahnuté priamo z PDF (vložené
+  // JPEG objekty), preto majú nižšie rozlíšenie než ostatné fotky z fotoaparátu.
+  {
+    slug: "ref-zakamenne",
+    src: "Fotky technika/Z PDF referencie/ref-zakamenne.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Kapela hrá na oblúkovom pódiu s červeným nasvietením a erbom v pozadí počas Dní obce Zákamenné",
+      en: "A band performs on an arched stage with red lighting and a coat of arms backdrop at the Zákamenné village days",
+    },
+  },
+  {
+    slug: "ref-novot",
+    src: "Fotky technika/Z PDF referencie/ref-novot.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Kapela na prestrešenom pódiu pred obchodným domom počas Dní obce Novoť",
+      en: "A band on a covered stage in front of a shop building at the Novoť village days",
+    },
+  },
+  {
+    slug: "ref-bziny",
+    src: "Fotky technika/Z PDF referencie/ref-bziny.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Folklórny súbor na pódiu s transparentom 680. výročia obce Bziny",
+      en: "A folk ensemble on stage with a banner marking the 680th anniversary of Bziny",
+    },
+  },
+  {
+    slug: "ref-krusetnica-pdf",
+    src: "Fotky technika/Z PDF referencie/ref-krusetnica-pdf.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Kapela na prestrešenom pódiu s modrým a červeným nasvietením počas Dní obce Krušetnica",
+      en: "A band on a covered stage with blue and red lighting at the Krušetnica village days",
+    },
+  },
+  {
+    slug: "ref-zakafest",
+    src: "Fotky technika/Z PDF referencie/ref-zakafest.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Oblúkové pódium s nápisom ZAKAFEST na LED obrazovke a reklamnými bannermi",
+      en: "Arched stage with the ZAKAFEST name on the LED screen and sponsor banners",
+    },
+  },
+  {
+    slug: "ref-snowfest",
+    src: "Fotky technika/Z PDF referencie/ref-snowfest.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Prestrešené pódium so zasneženým lyžiarskym svahom Snow Festu v Oravskej Lesnej",
+      en: "Covered stage on the snowy ski slope of the Snow Fest in Oravská Lesná",
+    },
+  },
+  {
+    slug: "ref-modna-prehliadka",
+    src: "Fotky technika/Z PDF referencie/ref-modna-prehliadka.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Modelky na móle počas charitatívnej módnej prehliadky v centre Kežmarku",
+      en: "Models on the runway during the charity fashion show in the centre of Kežmarok",
+    },
+  },
+  {
+    slug: "ref-plesova-1",
+    src: "Fotky technika/Z PDF referencie/ref-plesova-1.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Slávnostne prestretá sála plesu s LED obrazovkou a nápisom Noc Oscárov",
+      en: "A festively laid ballroom with an LED screen reading Night of the Oscars",
+    },
+  },
+  {
+    slug: "ref-plesova-2",
+    src: "Fotky technika/Z PDF referencie/ref-plesova-2.jpg",
+    tier: "card",
+    focus: "center",
+    alt: {
+      sk: "Pódium plesu s LED obrazovkou Noc Oscárov a disko guľou",
+      en: "Ball stage with the Night of the Oscars LED screen and a disco ball",
+    },
+  },
+  {
+    slug: "ref-plesova-3",
+    src: "Fotky technika/Z PDF referencie/ref-plesova-3.jpg",
+    tier: "card",
+    focus: "center",
+    alt: {
+      sk: "LED steny s hviezdnym motívom a pohyblivé hlavy pripravené na plesovú sezónu",
+      en: "LED walls with a starfield motif and moving heads prepared for the ball season",
+    },
+  },
+  {
+    slug: "ref-omsa-1",
+    src: "Fotky technika/Z PDF referencie/ref-omsa-1.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Veriaci zhromaždení pred kostolom s obrazovkou pre prenos slávnostnej svätej omše",
+      en: "Worshippers gathered outside a church with a screen relaying the solemn mass",
+    },
+  },
+  {
+    slug: "ref-omsa-2",
+    src: "Fotky technika/Z PDF referencie/ref-omsa-2.jpg",
+    tier: "card",
+    focus: "center",
+    alt: {
+      sk: "LED obrazovka na fasáde kostola s prenosom primičnej svätej omše",
+      en: "LED screen on a church facade relaying a first mass",
+    },
+  },
+  {
+    slug: "ref-ocenenie-obcanov",
+    src: "Fotky technika/Z PDF referencie/ref-ocenenie-obcanov.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Sála s LED obrazovkou oznamujúcou oslavu 410. výročia obce Zákamenné pri slávnostnom ocenení občanov",
+      en: "Hall with an LED screen announcing the 410th anniversary of Zákamenné at the civic awards ceremony",
+    },
+  },
+  {
+    slug: "ref-sportovec-roka",
+    src: "Fotky technika/Z PDF referencie/ref-sportovec-roka.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Transparent Športovec roka v pretláčaní rukou v kamennej klenutej sále kaštieľa",
+      en: "Athlete of the Year in arm wrestling banner in the vaulted stone hall of a manor house",
+    },
+  },
+  {
+    slug: "ref-lepsia-konferencia",
+    src: "Fotky technika/Z PDF referencie/ref-lepsia-konferencia.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Divadelná sála s pódiom a nápisom Lepšia Konferencia na plátne",
+      en: "A theatre hall with a stage and the Lepšia Konferencia name on screen",
+    },
+  },
+  {
+    slug: "ref-meetup-2025",
+    src: "Fotky technika/Z PDF referencie/ref-meetup-2025.jpg",
+    tier: "plate",
+    focus: "center",
+    alt: {
+      sk: "Konferenčná sála pripravená na Meet Up 2025 s premietaným programom",
+      en: "Conference room set up for Meet Up 2025 with the programme projected on screen",
+    },
+  },
 ];
 
 export const LOGO_SRC = "Logo firmy/pikla_webster_logo_final_1.png";
