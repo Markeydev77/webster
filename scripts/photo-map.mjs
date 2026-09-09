@@ -296,23 +296,23 @@ export const PHOTOS = [
     },
   },
   {
-    slug: "ref-party-2",
+    slug: "fx-co2-dav",
     src: "Fotky technika/Akcie/Diskoteky/IMG_4390.JPG",
-    tier: "card",
+    tier: "plate",
     focus: "center",
     alt: {
-      sk: "Svetelná šou nad tanečným parketom",
-      en: "Light show above a dance floor",
+      sk: "Dva stĺpy CO2 vystrelené nad dav počas klubovej noci, v pozadí svetelné lúče a truss konštrukcia",
+      en: "Two CO2 jets fired above the crowd during a club night, light beams and truss overhead",
     },
   },
   {
-    slug: "ref-party-3",
+    slug: "fx-co2-podium",
     src: "Fotky technika/Akcie/Diskoteky/IMG_4393.JPG",
-    tier: "card",
+    tier: "plate",
     focus: "center",
     alt: {
-      sk: "Pohyblivé svetlá a lúče počas diskotéky",
-      en: "Moving lights and beams during a disco night",
+      sk: "CO2 delá strieľajúce z pódia počas DJ setu, pred pódiom tancujúci ľudia",
+      en: "CO2 cannons firing from the stage during a DJ set, crowd dancing in front",
     },
   },
   {
@@ -347,11 +347,14 @@ export const PHOTOS = [
     alt: { sk: "Svetelné lúče nad davom", en: "Light beams above the crowd" },
   },
   {
-    slug: "ref-party-8",
-    src: "Fotky technika/Akcie/Diskoteky/IMG_6500.JPG",
-    tier: "thumb",
+    slug: "fx-ohen-podium",
+    src: "Fotky technika/Akcie/Diskoteky/OHNE.JPG",
+    tier: "plate",
     focus: "center",
-    alt: { sk: "Nasvietené pódium počas zábavy", en: "Lit stage during an event" },
+    alt: {
+      sk: "Štyri plameňomety šľahajúce pred pódiom počas DJ setu, dav pred pódiom v protisvetle",
+      en: "Four flame jets firing in front of the stage during a DJ set, crowd silhouetted against them",
+    },
   },
   {
     slug: "ref-party-9",

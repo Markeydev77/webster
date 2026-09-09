@@ -8,6 +8,8 @@ type Props = {
   eyebrow: string;
   headline: string;
   lead: string;
+  /** Krátke zhrnutie pod odstavcom, vysadené výraznejšie ako bežný text. */
+  punch: string;
   evidenceLabel: string;
 };
 
@@ -21,7 +23,7 @@ const titleOf = (id: string, locale: Locale) => {
  * Každá služba nesie odkaz na reálne akcie, na ktorých bola dodaná, takže
  * sekcia nie je zoznam sľubov ale zoznam doložených faktov.
  */
-export function Services({ locale, eyebrow, headline, lead, evidenceLabel }: Props) {
+export function Services({ locale, eyebrow, headline, lead, punch, evidenceLabel }: Props) {
   return (
     <section id="sluzby" className="relative scroll-mt-20 py-24 sm:py-32">
       <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
@@ -32,6 +34,9 @@ export function Services({ locale, eyebrow, headline, lead, evidenceLabel }: Pro
           {headline}
         </h2>
         <p className="mt-6 max-w-[58ch] text-[1.02rem] leading-relaxed text-muted">{lead}</p>
+        <p className="mt-5 font-display text-[1.35rem] font-semibold tracking-tight text-brand-lift sm:text-[1.6rem]">
+          {punch}
+        </p>
       </div>
 
       {/* Kotviaca fotografia: reálne postavené pódium so strechou a ozvučením */}

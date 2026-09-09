@@ -251,23 +251,37 @@ export const equipment: EquipmentCategory[] = [
     id: "efekty",
     title: { sk: "Špeciálne efekty", en: "Special effects" },
     intro: {
-      sk: "Efekty pre nástupy, vyvrcholenia programu a párty.",
-      en: "Effects for entrances, programme highlights and parties.",
+      sk: "Efekty pre nástupy, vyvrcholenia programu a párty. Nasadzujeme ich cielene na pár momentov, nie počas celého večera.",
+      en: "Effects for entrances, programme highlights and parties. We fire them at a few chosen moments, not all night.",
     },
-    photo: "ref-spartan",
+    photo: "fx-ohen-podium",
     items: [
       {
-        name: { sk: "Plameňové efekty", en: "Flame effects" },
+        name: { sk: "Ohňové efekty", en: "Flame effects" },
         note: {
-          sk: "Nasadzujeme na športových podujatiach a pri nástupoch.",
-          en: "Used at sports events and for performer entrances.",
+          sk: "Plameňomety pred pódiom pre nástupy a vrcholy programu.",
+          en: "Flame jets at the front of the stage for entrances and programme highlights.",
         },
       },
       {
-        name: { sk: "Dymostroje a hazery", en: "Smoke and haze machines" },
+        name: { sk: "CO2 delá", en: "CO2 cannons" },
         note: {
-          sk: "Zviditeľnenie svetelných lúčov v priestore.",
-          en: "Makes light beams visible in the room.",
+          sk: "Studené biele stĺpy nad pódiom aj nad davom.",
+          en: "Cold white plumes above the stage and over the crowd.",
+        },
+      },
+      {
+        name: { sk: "Dymostroje", en: "Smoke machines" },
+        note: {
+          sk: "Hustý dym pre výrazné svetelné momenty.",
+          en: "Dense smoke for bold lighting moments.",
+        },
+      },
+      {
+        name: { sk: "Hazer", en: "Hazer" },
+        note: {
+          sk: "Jemný opar, vďaka ktorému sú svetelné lúče viditeľné po celý večer.",
+          en: "A fine haze that keeps the light beams visible all evening.",
         },
       },
     ],

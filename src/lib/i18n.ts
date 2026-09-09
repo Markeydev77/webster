@@ -31,8 +31,9 @@ const sk = {
   },
   services: {
     eyebrow: "Čo zabezpečíme",
-    headline: "Od prázdnej lúky po hotové podujatie",
-    lead: "Pódium, strecha, ozvučenie, osvetlenie a obrazovka na jednu objednávku. Nemusíte skladať technikov z troch firiem a dúfať, že sa dohodnú.",
+    headline: "Od nápadu po hotové podujatie.",
+    lead: "Pódium, strecha, ozvučenie, osvetlenie a obrazovka na jednu objednávku.",
+    punch: "Jedna firma. Kompletná technika.",
     evidenceLabel: "Doložené na akciách",
   },
   statement: {
@@ -61,11 +62,6 @@ const sk = {
     deliveredLabel: "Zabezpečili sme",
     gallery: "Ďalšie fotografie z akcií",
     count: (n: number) => `${n} ${n === 1 ? "podujatie" : n < 5 ? "podujatia" : "podujatí"}`,
-  },
-  eventTypes: {
-    headline: "Čo od nás dostanete",
-    lead: "Vyberte typ akcie a uvidíte, s čím pri nej obvykle prichádzame. Rovnaký typ sa predvyplní aj v rezervačnom formulári.",
-    cta: "Rezervovať tento termín",
   },
   reviews: {
     headline: "Čo hovoria organizátori",
@@ -170,8 +166,9 @@ const en: Dict = {
   },
   services: {
     eyebrow: "What we cover",
-    headline: "From an empty field to a finished event",
-    lead: "Stage, roof, sound, lighting and screen in a single booking. No need to assemble crews from three companies and hope they agree.",
+    headline: "From an idea to a finished event.",
+    lead: "Stage, roof, sound, lighting and screen in a single booking.",
+    punch: "One company. The complete rig.",
     evidenceLabel: "Delivered at",
   },
   statement: {
@@ -199,11 +196,6 @@ const en: Dict = {
     deliveredLabel: "We delivered",
     gallery: "More photographs from our events",
     count: (n: number) => `${n} ${n === 1 ? "event" : "events"}`,
-  },
-  eventTypes: {
-    headline: "What you get from us",
-    lead: "Pick the type of event and see what we usually arrive with. The same type is pre filled in the booking form.",
-    cta: "Book this date",
   },
   reviews: {
     headline: "What organisers say",

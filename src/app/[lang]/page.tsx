@@ -6,7 +6,6 @@ import { Services } from "@/components/sections/Services";
 import { Statement } from "@/components/sections/Statement";
 import { EquipmentPreview } from "@/components/sections/EquipmentPreview";
 import { ReferencesPreview } from "@/components/sections/ReferencesPreview";
-import { EventTypes } from "@/components/sections/EventTypes";
 import { Reviews } from "@/components/sections/Reviews";
 import { Reservation } from "@/components/sections/Reservation";
 import { Contact } from "@/components/sections/Contact";
@@ -39,6 +38,7 @@ export default async function HomePage({
         eyebrow={d.services.eyebrow}
         headline={d.services.headline}
         lead={d.services.lead}
+        punch={d.services.punch}
         evidenceLabel={d.services.evidenceLabel}
       />
 
@@ -57,14 +57,6 @@ export default async function HomePage({
         headline={d.references.headline}
         lead={d.references.lead}
         cta={d.references.cta}
-        deliveredLabel={d.references.deliveredLabel}
-      />
-
-      <EventTypes
-        locale={locale}
-        headline={d.eventTypes.headline}
-        lead={d.eventTypes.lead}
-        cta={d.eventTypes.cta}
         deliveredLabel={d.references.deliveredLabel}
       />
 
