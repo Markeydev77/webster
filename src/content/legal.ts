@@ -30,6 +30,7 @@ export const LEGAL_UPDATED = "2026-09-08";
 
 /** Popisky identifikačných údajov prevádzkovateľa. */
 export const legalIdentityLabels = {
+  operator: { sk: "Prevádzkovateľ", en: "Operator" },
   entity: { sk: "Obchodné meno", en: "Business name" },
   ico: { sk: "IČO", en: "Company ID (IČO)" },
   dic: { sk: "DIČ", en: "Tax ID (DIČ)" },

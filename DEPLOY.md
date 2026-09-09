@@ -77,6 +77,12 @@ e-maily sa nedoručia. Rozšírenie DNS záznamov trvá spravidla desiatky minú
 Adresa v `CONTACT_FROM` musí patriť tejto overenej doméne, ľubovoľná iná
 adresa nebude fungovať.
 
+**Kým vlastnú doménu nemáte**, dá sa na skúšku použiť testovacia adresa
+`onboarding@resend.dev`. Má ale zásadné obmedzenie: Resend s ňou doručí správu
+iba na e-mail, ktorým ste sa do Resend zaregistrovali. Na overenie, že formulár
+funguje, to stačí, na ostrú prevádzku nie. Doménu si preto treba zaobstarať
+a overiť skôr, než web dáte zákazníkom.
+
 ### `NEXT_PUBLIC_SITE_URL`
 
 Verejná adresa webu aj s `https://`, napríklad `https://www.webstersound.sk`.

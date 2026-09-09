@@ -21,23 +21,20 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.webstersound.sk",
 
   contact: {
-    /** DOPLNIŤ: telefónne číslo v medzinárodnom tvare, napr. "+421903000000" */
-    phone: null as Maybe<string>,
-    /** DOPLNIŤ: zobrazovaný tvar telefónu, napr. "+421 903 000 000" */
-    phoneDisplay: null as Maybe<string>,
-    /** DOPLNIŤ: kontaktný e-mail */
-    email: null as Maybe<string>,
-    /** DOPLNIŤ: ulica a číslo */
+    phone: "+421903549635" as Maybe<string>,
+    phoneDisplay: "+421 903 549 635" as Maybe<string>,
+    email: "davidpikla@gmail.com" as Maybe<string>,
+    /** DOPLNIŤ, ak chcete uvádzať adresu: ulica a číslo */
     street: null as Maybe<string>,
-    /** DOPLNIŤ: PSČ a mesto/obec */
+    /** DOPLNIŤ, ak chcete uvádzať adresu: PSČ a mesto alebo obec */
     city: null as Maybe<string>,
     country: "Slovensko",
   },
 
-  /** DOPLNIŤ: odkazy na oficiálne profily. Nevymýšľame žiadne ďalšie. */
+  /** Oficiálne profily dodané firmou. Žiadne ďalšie sa nevymýšľajú. */
   social: {
-    facebook: null as Maybe<string>,
-    instagram: null as Maybe<string>,
+    facebook: "https://www.facebook.com/webstersoundalight/" as Maybe<string>,
+    instagram: "https://www.instagram.com/webster_soundalight/" as Maybe<string>,
     youtube: null as Maybe<string>,
     tiktok: null as Maybe<string>,
   },
@@ -73,12 +70,21 @@ export const site = {
   ],
 } as const;
 
-/** Zoznam chýbajúcich povinných údajov: vypíše sa pri builde ako varovanie. */
+/** Údaje, bez ktorých web nemá ako fungovať. Vypíše sa pri vývoji ako varovanie. */
 export function missingSiteData(): string[] {
   const missing: string[] = [];
   if (!site.contact.phone) missing.push("contact.phone");
   if (!site.contact.email) missing.push("contact.email");
-  if (!site.contact.city) missing.push("contact.city");
+  return missing;
+}
+
+/**
+ * Identifikačné údaje podnikateľa. Web bez nich funguje a právne stránky sa
+ * vykreslia s kontaktom na prevádzkovateľa, ale zákon o elektronickom obchode
+ * ich na podnikateľskom webe vyžaduje. Doplňte ich, keď budú k dispozícii.
+ */
+export function missingStatutoryData(): string[] {
+  const missing: string[] = [];
   if (!site.legal.entity) missing.push("legal.entity");
   if (!site.legal.ico) missing.push("legal.ico");
   return missing;

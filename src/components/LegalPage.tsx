@@ -21,7 +21,10 @@ function identityRows(): IdentityRow[] {
   const { entity, ico, dic, icDph, registration } = site.legal;
   const { street, city, country, email, phone, phoneDisplay } = site.contact;
 
+  // Kým nie je vyplnené obchodné meno, uvádzame prevádzkovateľa aspoň značkou,
+  // aby dotknutá osoba vždy vedela, komu píše. Nič sa nevydáva za zápis v registri.
   if (entity) rows.push({ key: "entity", label: legalIdentityLabels.entity, value: entity });
+  else rows.push({ key: "operator", label: legalIdentityLabels.operator, value: site.name });
   if (ico) rows.push({ key: "ico", label: legalIdentityLabels.ico, value: ico });
   if (dic) rows.push({ key: "dic", label: legalIdentityLabels.dic, value: dic });
   if (icDph) rows.push({ key: "icDph", label: legalIdentityLabels.icDph, value: icDph });
@@ -63,8 +66,10 @@ type Props = {
 /** Spoločné telo všetkých troch právnych stránok. */
 export function LegalPage({ locale, title, document: doc }: Props) {
   const d = getDictionary(locale);
-  const hasIdentity = Boolean(site.legal.entity) && Boolean(site.legal.ico);
   const rows = identityRows();
+  // Blok sa zobrazí vždy, keď je z čoho: meno prevádzkovateľa a kontakt stačia
+  // na to, aby sa dotknutá osoba mala kam obrátiť.
+  const hasIdentity = rows.length > 1;
 
   const siblings = (
     [
