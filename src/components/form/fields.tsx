@@ -74,9 +74,10 @@ export function Field({
 type ConsentProps = {
   id: string;
   label: string;
-  linkLabel: string;
-  href: string;
   error?: string;
+  /** Odkaz na zásady spracovania údajov. Vynechá sa, kým stránka neexistuje. */
+  linkLabel?: string;
+  href?: string;
 };
 
 export function ConsentCheckbox({ id, label, linkLabel, href, error }: ConsentProps) {
@@ -93,13 +94,18 @@ export function ConsentCheckbox({ id, label, linkLabel, href, error }: ConsentPr
           className="mt-1 h-4.5 w-4.5 shrink-0 cursor-pointer accent-[var(--color-brand)]"
         />
         <label htmlFor={id} className="text-[0.86rem] leading-relaxed text-muted">
-          {label}{" "}
-          <a
-            href={href}
-            className="text-brand-lift underline underline-offset-4 hover:text-white"
-          >
-            {linkLabel}
-          </a>
+          {label}
+          {href && linkLabel ? (
+            <>
+              {" "}
+              <a
+                href={href}
+                className="text-brand-lift underline underline-offset-4 hover:text-white"
+              >
+                {linkLabel}
+              </a>
+            </>
+          ) : null}
         </label>
       </div>
       {error && (

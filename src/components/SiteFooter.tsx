@@ -20,16 +20,11 @@ export function SiteFooter({ locale }: { locale: Locale }) {
     Boolean(site.contact.city) ||
     socialLinks.length > 0;
 
-  const legalLinks = [
-    { href: `${home}/ochrana-osobnych-udajov`, label: d.footer.privacy },
-    { href: `${home}/obchodne-podmienky`, label: d.footer.terms },
-    { href: `${home}/cookies`, label: d.footer.cookies },
-  ];
 
   return (
     <footer className="border-t border-line bg-ground-2">
       <div className="mx-auto max-w-[1400px] px-5 py-16 sm:px-8">
-        <div className="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)_minmax(0,1fr)]">
+        <div className="grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
           <div>
             <picture>
               <source
@@ -98,23 +93,6 @@ export function SiteFooter({ locale }: { locale: Locale }) {
             )}
           </div>
 
-          <div>
-            <p className="font-mono text-[0.68rem] uppercase tracking-[0.16em] text-muted-2">
-              {d.footer.legal}
-            </p>
-            <ul className="mt-4 space-y-2 text-[0.92rem]">
-              {legalLinks.map((l) => (
-                <li key={l.href}>
-                  <Link
-                    href={l.href}
-                    className="text-muted transition-colors duration-200 hover:text-text"
-                  >
-                    {l.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         <div className="mt-14 flex flex-col gap-3 border-t border-line pt-7 sm:flex-row sm:items-center sm:justify-between">

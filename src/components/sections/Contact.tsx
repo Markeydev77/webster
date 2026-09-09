@@ -211,8 +211,6 @@ export function Contact({ locale, details, social, serviceArea }: Props) {
                 <ConsentCheckbox
                   id="kon-consent"
                   label={r.consent}
-                  linkLabel={r.consentLink}
-                  href={`/${locale}/ochrana-osobnych-udajov`}
                   error={err.consent}
                 />
 

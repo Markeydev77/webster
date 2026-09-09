@@ -1,13 +1,14 @@
 import type { NextConfig } from "next";
-import path from "node:path";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
   // Bez tohto si Next zvolí ako koreň priečinok, v ktorom našiel iný lockfile,
-  // a build server potom zbalí nesprávnu množinu súborov.
-  outputFileTracingRoot: path.join(import.meta.dirname, "."),
+  // a build server potom zbalí nesprávnu množinu súborov. Zámerne process.cwd()
+  // a nie import.meta.dirname: konfigurácia sa podľa prostredia kompiluje aj do
+  // CommonJS, kde import.meta neexistuje.
+  outputFileTracingRoot: process.cwd(),
   images: {
     // Fotografie sú predspracované do AVIF/WebP skriptom `npm run images`,
     // takže runtime optimalizátor nepotrebujeme a web zostáva prenosný
